@@ -1,4 +1,4 @@
-package fr.imt.webannuaire.data;
+package fr.imt.webannuaire;
 
 public class Person {
 	

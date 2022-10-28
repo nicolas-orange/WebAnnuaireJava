@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.imt.webannuaire.data;
+package fr.imt.webannuaire;
 
 /**
  * @author INMO7350
