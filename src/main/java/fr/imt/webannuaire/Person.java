@@ -8,22 +8,33 @@ public class Person {
 	private String surname;
 	private String phone;
 	private String city;
+	private int size;
+	
+	public int getSize() {
+		return size;
+	}
+
+	public void setSize(int size) {
+		this.size = size;
+	}
 
 	public Person() {
 	};
 
-	public Person(String pname, String psurname, String pphone, String pcity) {
+	public Person(String pname, String psurname, int psize, String pphone, String pcity) {
 		super();
 		this.id = currentid;
 		currentid++;
 		this.name = pname;
 		this.surname = psurname;
+		this.size = psize;
 		this.phone = pphone;
 		this.city = pcity;
 	}
 	public Person(int pid, String pname, String psurname, String pphone, String pcity) {
 		this.id = pid;
 		this.name = pname;
+		this.surname = psurname;
 		this.surname = psurname;
 		this.phone = pphone;
 		this.city = pcity;
