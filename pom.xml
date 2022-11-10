@@ -37,8 +37,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/jakarta.json.bind/jakarta.json.bind-api -->
-		<!-- https://mvnrepository.com/artifact/org.eclipse/yasson -->
 		<dependency>
 			<groupId>org.eclipse</groupId>
 			<artifactId>yasson</artifactId>
